@@ -15,3 +15,23 @@ x.addEventListener('click', () => {
     x.style.display = 'none';
     
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const bus = document.querySelector('.bus');
+    
+    function slideToRight() {
+      bus.style.left = '85%';
+    }
+  
+    function slideToLeft() {
+      bus.style.left = '-200px';
+    }
+  
+    function resetPosition() {
+      bus.style.left = '-200px';
+      setTimeout(slideToRight, 1000);
+    }
+  
+    setTimeout(resetPosition, 0);
+  });
+  

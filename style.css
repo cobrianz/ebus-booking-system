@@ -39,6 +39,7 @@ button {
 
 body {
     font-family: 'Poppins', sans-serif;
+    background: var(--background-primary)
     /*  
   font-family: 'Inter', sans-serif;
   font-family: 'Rubik Mono One', monospace;
@@ -131,41 +132,26 @@ nav .button a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image: url(./assets/background.png);
+    background-position: center;
+    background-size: cover;
 }
+
+.bus {
+    width: 200px;
+    position: absolute;
+    left: -200px;
+    bottom: -2rem;
+    transform: translateY(-50%);
+    transition: left 5s ease-in-out;
+    overflow: hidden;
+  }
 
 .hero__left {
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 2rem;
-}
-
-.slateblue {
-    width: 40%;
-    aspect-ratio: 1/1;
-    background: #695acd6b;
-    position: absolute;
-    top: -20%;
-    right: -10%;
-    border-radius: 50%;
-    opacity: 0.5;
-    z-index: -99;
-    
-    
-}
-
-
-.slateblue2 {
-    width: 40%;
-    aspect-ratio: 1/1;
-    background: #695acd6b;
-    position: absolute;
-    bottom: -20%;
-    left: -10%;
-    border-radius: 50%;
-    opacity: 0.5;
-    z-index: -99;
-    
 }
 
 .account__1 {
@@ -238,6 +224,13 @@ button {
 .hero__right form button img {
     width: 1.3rem;
     filter: invert();
+}
+
+datalist {
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    background: #6a5acd;
 }
 
 section {
