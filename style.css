@@ -558,7 +558,7 @@ SIGNIN SECTION
 @media screen and (max-width: 900px) {
     nav {
         align-items: center;
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
     nav ul {
         flex-direction: column;
@@ -568,7 +568,7 @@ SIGNIN SECTION
         border-radius: var(--border-radius);
         position: absolute;
         right: 2rem;
-        top: 6rem;
+        top: 4.5rem;
         display: none;
     }
 
