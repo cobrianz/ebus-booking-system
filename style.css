@@ -317,6 +317,10 @@ section {
 
 /* AMENITIES STYLING */
 
+.amenities {
+    background: #fff;
+}
+
 .amenities__container {
     display: flex;
     align-items: center;
@@ -710,6 +714,10 @@ SIGNIN SECTION
     .footer__left p {
         width: 100%;
         text-align: center;
+    }
+
+    .bus {
+        display: none;
     }
 
 
